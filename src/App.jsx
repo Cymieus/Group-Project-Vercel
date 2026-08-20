@@ -10,10 +10,10 @@ import PasswordChecker from './pages/PasswordChecker'
 const navItems = [
 	{ key: 'homepage', label: 'Homepage' },
 	{ key: 'login', label: 'Activity 1' },
-	{ key: 'attendance', label: 'Activity 2' },
-	{ key: 'electricity', label: 'Activity 3' },
-	{ key: 'grades', label: 'Activity 4' },
-	{ key: 'password', label: 'Activity 5' },
+	{ key: 'grades', label: 'Activity 2' },
+	{ key: 'password', label: 'Activity 3' },
+	{ key: 'electricity', label: 'Activity 4' },
+	{ key: 'attendance', label: 'Activity 5' },
 ]
 
 function App() {
@@ -22,10 +22,10 @@ function App() {
 	const pages = {
 		homepage: <Homepage onNavigate={setCurrentPage} />,
 		login: <Login />,
-		attendance: <AttendanceChecker />,
-		electricity: <ElectricityBill />,
 		grades: <GradeEvaluation />,
 		password: <PasswordChecker />,
+		electricity: <ElectricityBill />,
+		attendance: <AttendanceChecker />,
 	}
 
 	return (

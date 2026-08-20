@@ -66,15 +66,14 @@ function Homepage({ onNavigate }) {
 					<h2>Grade Evaluation</h2>
 				</button>
 
-				<button className="card" onClick={() => onNavigate('electricity')}>
-					<h2>Electricity Bill</h2>
-				</button>
-
-
 				<button className="card" onClick={() => onNavigate('password')}>
 					<h2>Password Checker</h2>
 				</button>
 
+				<button className="card" onClick={() => onNavigate('electricity')}>
+					<h2>Electricity Bill</h2>
+				</button>
+				
 				<button className="card" onClick={() => onNavigate('attendance')}>
 					<h2>Attendance Checker</h2>
 				</button>

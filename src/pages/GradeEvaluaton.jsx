@@ -78,10 +78,10 @@ function GradeEvaluation() {
               <div style={{ padding: "12px", borderRadius: "8px", marginBottom: "15px", ...boxStyle }}>
                 {submittedName !== "" && (
                   <p style={{ margin: "0 0 4px 0", fontWeight: "bold", textAlign: "center" }}>
-                    Student {submittedName} , Grade: {grade}
+                    Student Name: {submittedName} <br /> Grade: {grade}
                   </p>
                 )}
-                <p style={{ margin: 0, textAlign: "center" }}>{message}</p>
+                <p style={{ margin: 0, textAlign: "center" }}> Remarks: {message}</p>
               </div>
             )}
 

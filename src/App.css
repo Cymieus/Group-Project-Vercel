@@ -1,1 +1,64 @@
-/* tinanggal ko muna */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.topnav {
+	background: #16241a;
+	padding: 14px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.topnav-brand {
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ccff00;
+	letter-spacing: 0.02em;
+}
+
+.topnav-links {
+	display: flex;
+	gap: 4px;
+	flex-wrap: wrap;
+}
+
+.topnav-link {
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 13.5px;
+	color: #d7e8d4;
+	background: transparent;
+	border: none;
+	padding: 8px 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.15s ease, color 0.15s ease;
+}
+
+.topnav-link:hover {
+	background: #22331f;
+	color: #ffffff;
+}
+
+.topnav-link:focus-visible {
+	outline: 2px solid #ccff00;
+	outline-offset: 1px;
+}
+
+.topnav-link.is-active {
+	background: #ccff00;
+	color: #16241a;
+}

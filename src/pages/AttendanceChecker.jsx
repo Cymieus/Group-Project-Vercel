@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-function AttendanceChecker() {
-    return (
-        <div>
-            <h1>Attendance Checker</h1>
-            <p>This is the Attendance Checker page.</p>
-        </div>
-    );
-}
-
-export default AttendanceChecker;
-=======
 import { useState } from "react"
 
 function AttendanceChecker() {
@@ -117,5 +105,4 @@ function AttendanceChecker() {
   )
 }
 
-export default AttendanceChecker
->>>>>>> 0b9c77611f92f3c460a999668d0dbdeedc54d5fa
+export default AttendanceChecker;

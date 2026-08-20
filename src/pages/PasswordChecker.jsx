@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-function PasswordChecker() {
-    return (
-        <div>
-            <h1>Password Checker</h1>
-            <p>This is the Password Checker page.</p>
-        </div>
-    );
-}
-
-export default PasswordChecker;
-=======
 import { useState } from "react"
 
 function PasswordChecker() {
@@ -91,4 +79,3 @@ function PasswordChecker() {
 }
 
 export default PasswordChecker
->>>>>>> 0b9c77611f92f3c460a999668d0dbdeedc54d5fa

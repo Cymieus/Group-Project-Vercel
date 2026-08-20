@@ -20,7 +20,7 @@ function App() {
 	const [currentPage, setCurrentPage] = useState('homepage')
 
 	const pages = {
-		homepage: <Homepage onNavigate={setCurrentPage} />,
+		homepage: <Homepage />,
 		login: <Login />,
 		attendance: <AttendanceChecker />,
 		electricity: <ElectricityBill />,

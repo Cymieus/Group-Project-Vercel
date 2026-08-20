@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 
-function App(){
+function Login(){
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
@@ -108,4 +108,4 @@ else{
 
 }
 
-export default App;
+export default Login;

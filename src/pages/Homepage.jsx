@@ -3,7 +3,7 @@ function Homepage({ onNavigate }) {
 		<div className="homepage">
 			<style>{`
 				.homepage {
-					background-color: #eaf6e8;
+					background-color: #ffffff;
 					min-height: 100vh;
 					padding: 40px;
 					text-align: center;
@@ -28,7 +28,7 @@ function Homepage({ onNavigate }) {
 				}
 
 				.card {
-					background-color: #ccff00;
+					background-color: #e6f0c2;
 					border: none;
 					border-radius: 8px;
 					padding: 20px;
@@ -50,32 +50,32 @@ function Homepage({ onNavigate }) {
 				}
 
 				.card:hover {
-					background-color: #b8e600;
+					background-color: #c8ceb1;
 				}
 			`}</style>
 
 			<h1>Student Toolkit</h1>
-			<p>Pick a tool below to get started.</p>
+			<p>A single React application, five activities, one Shared Navbar.</p>
 
 			<div className="card-list">
+				<button className="card" onClick={() => onNavigate('login')}>
+					<h2>Login</h2>
+				</button>
+
 				<button className="card" onClick={() => onNavigate('attendance')}>
 					<h2>Attendance Checker</h2>
-					<p>Check your attendance record.</p>
 				</button>
 
 				<button className="card" onClick={() => onNavigate('electricity')}>
 					<h2>Electricity Bill</h2>
-					<p>Calculate your electricity bill.</p>
 				</button>
 
 				<button className="card" onClick={() => onNavigate('grades')}>
 					<h2>Grade Evaluation</h2>
-					<p>Check your grades and average.</p>
 				</button>
 
 				<button className="card" onClick={() => onNavigate('password')}>
 					<h2>Password Checker</h2>
-					<p>Check if your password is strong.</p>
 				</button>
 			</div>
 		</div>

@@ -44,7 +44,7 @@ if (errorMes == "Login successful"){
 
             <form onSubmit={handleSubmit}>
 
-            <div style={{width: "320px", padding: "20px"}}>
+            <div style={{width: "320px", padding: "20px" , background: "#fffefe"}}>
                
                 <div style={{ width: "56px", height: "56px", borderRadius: "50%", background: "#dafce6", color: "#30914d", fontSize: "24px", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 20px auto" }}>✓</div>
                 {errorMes != "" && <p style={{ textAlign: "center", padding: "12px", borderRadius: "8px", marginBottom: "15px", background: "#dafce6", color: "#30914d", border: "1px solid #45df51" }}>{errorMes}</p>}
